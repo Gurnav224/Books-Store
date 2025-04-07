@@ -12,7 +12,7 @@ const Home = () => {
 
        <BookSlider />
 
-       {/* <Category /> */}
+       <Category />
 
        <Testimonials />
        

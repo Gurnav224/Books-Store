@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -7,12 +8,12 @@ const Header = () => {
             <h1 className='font-bold text-2xl'>BookStore</h1>
 
             <ul className='flex gap-10 text-gray-600'>
-              <li className='hover:text-blue-600 cursor-pointer'>Home</li>
-              <li className='hover:text-blue-600 cursor-pointer'>Books</li>
-              <li className='hover:text-blue-600 cursor-pointer'>About</li>
+              <NavLink to={"/"} className='hover:text-blue-600 cursor-pointer'>Home</NavLink>
+              <NavLink to={"/books"} className='hover:text-blue-600 cursor-pointer'>Books</NavLink>
+              <NavLink to={"/about"} className='hover:text-blue-600 cursor-pointer'>About</NavLink>
             </ul>
 
-            <h3 className='text-black text-base cursor-pointer hover:underline'>Account</h3>
+            <NavLink to={"/account"} className='text-black text-base cursor-pointer hover:underline'>Account</NavLink>
         </div>
     </header>
   )

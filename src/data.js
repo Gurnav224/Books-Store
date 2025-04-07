@@ -32,7 +32,7 @@ const categories = [
     {
     "_id": "67ee44bb28a00cda0cdf8509",
     "category": "History",
-    "img": "https://images.unsplash.com/photo-1529074963761-98eb0ef5847b"
+    "img": "https://cdn.pixabay.com/photo/2015/06/02/12/59/book-794978_960_720.jpg"
     },
     {
     "_id": "67ee44bb28a00cda0cdf850a",

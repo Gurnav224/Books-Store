@@ -6,7 +6,7 @@ const Account = () => {
   return (
     <div>
         <LogIn />
-        {/* <SignUp /> */}
+        <SignUp />
     </div>
   )
 }
